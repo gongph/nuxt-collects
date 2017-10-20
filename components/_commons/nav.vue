@@ -4,7 +4,7 @@
 
       <!-- logo -->
       <a class="navbar-brand" href="/">
-        <img :src="logo" class="d-inline-block align-top">
+        <img src="/logo.png" class="d-inline-block align-top">
       </a>
 
       <!-- response button -->
@@ -64,14 +64,3 @@
     </div>
   </nav>
 </template>
-
-<script>
-  export default {
-    data () {
-      return {
-        logo: './logo.png',
-        menus: []
-      }
-    }
-  }
-</script>

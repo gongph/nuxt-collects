@@ -6,7 +6,7 @@ export const tools = [{
     title: 'Webpack',
     subtitle: '中文文档',
     description: 'webpack',
-    thumbnail: './assets/imgs/webpack.png',
-    url: '/'
+    thumbnail: '/assets/imgs/webpack.png',
+    url: 'https://doc.webpack-china.org/'
   }]
 }]

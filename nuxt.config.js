@@ -18,12 +18,12 @@ module.exports = {
       { hid: 'description', name: 'description', content: '前端网址导航，前端开发者必备！' }
   	],
     script: [
-      { src: './lib/jquery/jquery-slim.min.js' },
-      { src: './lib/popper/popper.min.js' },
-      { src: './lib/bootstrap/js/bootstrap.min.js' }
+      { src: '/lib/jquery/jquery-slim.min.js' },
+      { src: '/lib/popper/popper.min.js' },
+      { src: '/lib/bootstrap/js/bootstrap.min.js' }
     ],
     link: [
-      { rel: 'stylesheet', href: './lib/bootstrap/css/bootstrap.min.css' },
+      { rel: 'stylesheet', href: '/lib/bootstrap/css/bootstrap.min.css' },
       { rel: 'favicon', href: 'favicon.ico' }
     ]
   }
