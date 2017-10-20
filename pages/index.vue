@@ -6,7 +6,7 @@
 </template>
 
 <script>
-  import NFrames from '../components/frames/index.vue'
+  import NFrames from '../components/frames'
   export default {
     components: {
       NFrames

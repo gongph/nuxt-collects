@@ -13,7 +13,7 @@
 
 <script>
   export default {
-    name: 'NCard',
+    name: 'CardItem',
     props: {
       index: {
         type: Number

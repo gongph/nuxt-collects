@@ -1,5 +1,5 @@
 <template>
-  <cards classes="frames" :items="frames"></cards>
+  <cards classes="tools" :items="tools"></cards>
 </template>
 
 <script>
@@ -7,7 +7,7 @@
   import Cards from '../_commons/cards.vue'
   export default {
     computed: mapGetters({
-      frames: 'frames/frames'
+      tools: 'tools/tools'
     }),
     components: {
       Cards

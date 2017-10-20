@@ -3,7 +3,7 @@
     <div class="container">
 
       <!-- logo -->
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="/">
         <img :src="logo" class="d-inline-block align-top">
       </a>
 
@@ -22,18 +22,18 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="/" id="navbarDropdownFrames" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">主流框架</a>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownFrames" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">主流框架</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownFrames">
-                <a class="dropdown-item" href="#Vue">Vue.js</a>
-                <a class="dropdown-item" href="#React">React</a>
+                <a class="dropdown-item" href="/">Vue.js</a>
+                <a class="dropdown-item" href="/#React">React</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#综合">综合</a>
               </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="/" id="navbarDropdownTools" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">前端工具</a>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownTools" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">前端工具</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownTools">
-                <a class="dropdown-item" href="#Vue">自动化</a>
+                <a class="dropdown-item" href="/tools">自动化</a>
                 <a class="dropdown-item" href="#React">预编译</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#综合">其他</a>
@@ -54,7 +54,7 @@
         </ul>
         <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
           <li class="nav-item">
-            <a href="https://github.com/gongph" target="_blank" class="nav-link" aria-label="GitHub">
+            <a href="https://github.com/gongph/nuxt-collects" target="_blank" class="nav-link" aria-label="GitHub">
               <img src="/brands/github.png"/>
             </a>
           </li>
